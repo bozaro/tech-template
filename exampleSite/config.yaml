@@ -1,0 +1,17 @@
+baseUrl: "/"
+languageCode: "ru"
+title: "Пример"
+theme: "tech-template"
+
+relativeURLs: true
+disableRSS: true
+disable404: true
+metadataFormat: "yaml"
+
+blackfriday:
+  sourceRelativeLinksEval: true
+
+params:
+  author: "Навроцкий Артем"
+  agent: ...@mail.ru
+  description: "Пример презентации"
