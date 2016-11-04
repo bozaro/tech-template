@@ -26,8 +26,8 @@
      borderopacity="1.0"
      showgrid="false"
      inkscape:zoom="3.2929499"
-     inkscape:cx="589.82517"
-     inkscape:cy="44.811299"
+     inkscape:cx="262.72825"
+     inkscape:cy="71.477455"
      inkscape:window-width="1440"
      inkscape:window-height="837"
      inkscape:window-x="-8"
@@ -80,19 +80,29 @@
        id="path12"
        inkscape:connector-curvature="0" />
     <path
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#F00;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
+       d="M 416,472 679,472 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 416,546 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z M 409,462 672,462 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 409,536 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z"
+       id="path3363"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#fff;fill-rule:evenodd;stroke:#F00;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
+       d="M 409,462 672,462 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 409,536 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z"
+       id="path3361"
+       inkscape:connector-curvature="0" />
+    <path
        style="fill:none;fill-rule:evenodd;stroke:#F00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
        d="M 409,467 672,467 c 0,0 32,0 32,32 0,32 -32,32 -32,32 L 409,531 c 0,0 -32,0 -32,-32 0,-32 32,-32 32,-32 Z"
        id="path3340"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#F00;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
-       d="M 409,462 672,462 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 409,536 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z"
-       id="path3361"
+       d="M 267,403 267,499 355,499 m -10,-5 l 10,5 -10,5"
+       id="path4190"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#ffccaa;fill-rule:evenodd;stroke:#F00;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
-       d="M 416,472 679,472 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 416,546 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z"
-       id="path3363"
-       inkscape:connector-curvature="0" />
+       style="fill:none;fill-rule:evenodd;stroke:#F00;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
+       d="M 166,1 267,1 267,95 m -5,-10 l 5,10 5,-10"
+       id="path4190"
+       inkscape:connector-curvature="0" />       
   </g>
 </svg>
