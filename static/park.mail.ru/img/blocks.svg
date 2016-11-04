@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+<svg xmlns="http://www.w3.org/2000/svg"
    height="548"
    width="718"
    viewBox="0 0 718 548"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="blocks.svg">
+   version="1.1">
   <defs>
     <pattern
        id="shadow_pattern"
@@ -44,91 +33,68 @@
          x="0"
          style="fill:black;stroke:none" />
     </pattern>
+    <style type="text/css"><![CDATA[
+.shadow_b {
+  fill: url(#large_pattern);
+  fill-rule: evenodd;
+}
+.shadow_b, .outer_b {
+  stroke: #000;
+  stroke-width: 7px;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+}
+.inner_b {
+  stroke: #000;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+}
+.inner_b, .outer_b {
+  fill: none;
+}
+
+.shadow_s {
+  fill: url(#shadow_pattern);
+  fill-rule: evenodd;
+}
+.shadow_s, .outer_s {
+  stroke: #000;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+}
+.inner_s {
+  stroke: #000;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+}
+.inner_s {
+  fill: none;
+}
+.outer_s {
+  fill: #fff;
+}
+
+.arrow {
+  stroke: #000;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+  fill: none;
+}
+]]></style>
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     showgrid="false"
-     inkscape:zoom="3.2929499"
-     inkscape:cx="262.72825"
-     inkscape:cy="71.477455"
-     inkscape:window-width="1440"
-     inkscape:window-height="837"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <image
-       sodipodi:absref="C:\Bozaro\git.bozaro.ru\tech-db\2016-2\lecture-07\park.mail.ru\blocks.png"
-       y="0"
-       x="0"
-       id="image3344"
-       xlink:href="file:///C:/Bozaro/git.bozaro.ru/tech-db/2016-2/lecture-07/park.mail.ru/blocks.png"
-       preserveAspectRatio="none"
-       height="548"
-       width="718" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#0F0;stroke-width:3px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
-       d="M 20,137 534,137 534,339 20,339 Z"
-       id="path3431"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#F00;stroke-width:7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
-       d="M 550,355 4,355 4,121 550,121 Z"
-       id="path3433"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:url(#large_pattern);fill-rule:evenodd;stroke:#F00;stroke-width:7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
-       d="M 4,355 550,355 570,383 24,383 Z"
-       id="path10"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:url(#large_pattern);fill-rule:evenodd;stroke:#F00;stroke-width:7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
-       d="M 550,121 550,355 570,383 570,150 Z"
-       id="path12"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:url(#shadow_pattern);fill-rule:evenodd;stroke:#F00;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
-       d="M 416,472 679,472 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 416,546 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z M 409,462 672,462 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 409,536 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z"
-       id="path3363"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#fff;fill-rule:evenodd;stroke:#F00;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
-       d="M 409,462 672,462 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 409,536 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z"
-       id="path3361"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#F00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
-       d="M 409,467 672,467 c 0,0 32,0 32,32 0,32 -32,32 -32,32 L 409,531 c 0,0 -32,0 -32,-32 0,-32 32,-32 32,-32 Z"
-       id="path3340"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#F00;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
-       d="M 267,403 267,499 355,499 m -10,-5 l 10,5 -10,5"
-       id="path4190"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#F00;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.5"
-       d="M 166,1 267,1 267,95 m -5,-10 l 5,10 5,-10"
-       id="path4190"
-       inkscape:connector-curvature="0" />       
+  <g>
+    <path class="inner_b" d="M 20,137 534,137 534,339 20,339 Z" />
+    <path class="outer_b" d="M 550,355 4,355 4,121 550,121 Z" />
+    <path class="shadow_b" d="M 4,355 550,355 570,383 24,383 Z" />
+    <path class="shadow_b" d="M 550,121 550,355 570,383 570,150 Z" />
+    <path class="shadow_s" d="M 416,472 679,472 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 416,546 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z M 409,462 672,462 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 409,536 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z" />
+    <path class="outer_s" d="M 409,462 672,462 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 409,536 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z" />
+    <path class="inner_s" d="M 409,467 672,467 c 0,0 32,0 32,32 0,32 -32,32 -32,32 L 409,531 c 0,0 -32,0 -32,-32 0,-32 32,-32 32,-32 Z" />
+    <path class="arrow" d="M 267,403 267,499 355,499 m -10,-5 l 10,5 -10,5" />
+    <path class="arrow" d="M 166,1 267,1 267,95 m -5,-10 l 5,10 5,-10" />
   </g>
 </svg>
