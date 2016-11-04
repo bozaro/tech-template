@@ -2,13 +2,13 @@
 <svg
    xmlns="http://www.w3.org/2000/svg"
    version="1.1"
-   viewBox="-1 -1 297.5 133">
+   viewBox="-1 -1 297 130">
   <defs>
     <pattern
        id="shadow_pattern"
-       patternTransform="translate(0,0) rotate(-34.2869)"
+       patternTransform="translate(0,0) rotate(-35)"
        height="1"
-       width="8.5"
+       width="8.4"
        patternUnits="userSpaceOnUse">
       <rect
          height="2"
@@ -52,10 +52,10 @@ text {
 }
 ]]></style>
   </defs>
-  <path class="outer" d="M 0,60 144,0 288,60 144,120 Z" />
-  <path class="inner" d="M 17,60 144,7 271,60 144,113 Z" />
-  <path class="shadow" d="M 144,120 151.5,131 295.5,71 288,60 Z" />
-  <path class="shadow" d="M 0,60 7.5,71 151.5,131 144,120 Z" />
+  <path class="outer" d="M 0,59 144,0 288,59 144,118 Z" />
+  <path class="inner" d="M 17,59 144,7 271,59 144,111 Z" />
+  <path class="shadow" d="M 144,118 151,128 295,69 288,59 Z" />
+  <path class="shadow" d="M 0,59 7,69 151,128 144,118 Z" />
   <text x="144" y="28" style="font-size: 12.5px; font-weight: bold; letter-spacing:1px">МГТУ</text>
   <text x="144" y="40" style="font-size: 12.5px; font-weight: bold; letter-spacing:-0.2px">им. Н. Э. Баумана</text>
   <text x="144" y="70" style="font-size: 26.5px">ТЕХНОПАРК</text>
