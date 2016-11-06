@@ -15,3 +15,4 @@ params:
   author: "Навроцкий Артем"
   agent: ...@mail.ru
   description: "Пример презентации"
+  highlightTheme: "default"
