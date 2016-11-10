@@ -104,3 +104,26 @@ body.index {
 	counter-increment:list;
 	content:counter(list)'.';
 }
+.slide table.classic {
+    margin-left: 0;
+    width: 100%;
+}
+.slide table.classic td:first-child, .slide table.classic th:first-child {
+    padding-left: 0.5em;
+}
+.slide table.classic td:last-child, .slide table.classic th:last-child {
+    padding-right: 0.5em;
+}
+
+.slide table td, .slide table th {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.slide table.bordered {
+    border: 1px solid gray;
+}
+
+.slide table.bordered td, .slide table.bordered th {
+    border: 1px solid gray;
+}
