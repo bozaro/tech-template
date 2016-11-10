@@ -137,3 +137,11 @@ body.index {
 .slide table.bordered tr:nth-child(even) {
     background-color: rgba(88,90,94,.1);
 }
+null::before {
+    border-radius: 4pt;
+    background-color: #888;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #fff;
+    content: "null";
+}
