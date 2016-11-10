@@ -122,8 +122,18 @@ body.index {
 
 .slide table.bordered {
     border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.slide table.bordered th {
+    background-color: rgba(88,90,94,.25);
 }
 
 .slide table.bordered td, .slide table.bordered th {
     border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.slide table.bordered tr:nth-child(even) {
+    background-color: rgba(88,90,94,.1);
 }
