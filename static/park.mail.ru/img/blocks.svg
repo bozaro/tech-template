@@ -44,6 +44,11 @@
   stroke-linejoin: round;
   stroke-opacity: 1;
 }
+.shadow_mask {
+  fill: #fff;
+  stroke: none;
+  fill-rule: evenodd;
+}
 .inner_b {
   stroke: #000;
   stroke-width: 3px;
@@ -56,7 +61,6 @@
 
 .shadow_s {
   fill: url(#shadow_pattern);
-  fill-rule: evenodd;
 }
 .shadow_s, .outer_s {
   stroke: #000;
@@ -70,11 +74,8 @@
   stroke-linejoin: round;
   stroke-opacity: 1;
 }
-.inner_s {
+.inner_s, .outer_s {
   fill: none;
-}
-.outer_s {
-  fill: #fff;
 }
 
 .arrow {
@@ -85,13 +86,16 @@
   fill: none;
 }
 ]]></style>
+  <mask id="shadow_b_mask">
+    <path d="M 409,462 672,462 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 409,536 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z M 360,460 L 720,460 L 720,560 L 360,560 Z" class="shadow_mask" />
+  </mask>
   </defs>
   <g>
     <path class="inner_b" d="M 20,137 534,137 534,339 20,339 Z" />
     <path class="outer_b" d="M 550,355 4,355 4,121 550,121 Z" />
     <path class="shadow_b" d="M 4,355 550,355 570,383 24,383 Z" />
     <path class="shadow_b" d="M 550,121 550,355 570,383 570,150 Z" />
-    <path class="shadow_s" d="M 416,472 679,472 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 416,546 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z M 409,462 672,462 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 409,536 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z" />
+    <path class="shadow_s" d="M 416,472 679,472 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 416,546 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z" mask="url(#shadow_b_mask)" />
     <path class="outer_s" d="M 409,462 672,462 c 0,0 37,0 37,37 0,37 -37,37 -37,37 L 409,536 c 0,0 -37,0 -37,-37 0,-37 37,-37 37,-37 Z" />
     <path class="inner_s" d="M 409,467 672,467 c 0,0 32,0 32,32 0,32 -32,32 -32,32 L 409,531 c 0,0 -32,0 -32,-32 0,-32 32,-32 32,-32 Z" />
     <path class="arrow" d="M 267,403 267,499 355,499 m -10,-5 l 10,5 -10,5" />
