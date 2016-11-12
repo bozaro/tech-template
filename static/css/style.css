@@ -17,6 +17,9 @@
 .slide p {
 	margin-bottom: 10px;
 }
+.slide ul.compact li, .slide ol.compact li {
+	margin-bottom: 0px;
+}
 .slide li {
 	margin-bottom: 15px;
 }
