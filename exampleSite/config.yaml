@@ -16,3 +16,4 @@ params:
   agent: ...@mail.ru
   description: "Пример презентации"
   highlightTheme: "default"
+  useMath: false
