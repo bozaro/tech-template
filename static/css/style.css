@@ -34,11 +34,11 @@
 	line-height: 1.2;
 }
 .slide dd {
-	margin-left: 20px;
+    margin-left: 20px;
 }
 .slide dt {
 	font-weight: bold;
-	font-style: italic;
+	color: #3953a4;
 }
 .slide dl {
 	margin-bottom: 15px;
