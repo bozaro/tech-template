@@ -36,7 +36,7 @@
 .slide dd {
     margin-left: 20px;
 }
-.slide dt {
+.slide dt, .slide dfn {
 	font-weight: bold;
 	color: #3953a4;
 }
