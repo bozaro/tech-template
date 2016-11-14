@@ -160,8 +160,8 @@ null::before {
 	font-size: 12pt;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	border-top: 0.2mm dashed gray;
-	border-bottom: 0.2mm dashed gray;
-	margin-top: -0.2mm;
+	border-top: 2px dashed gray;
+	border-bottom: 2px dashed gray;
+	margin-top: -2px;
 	page-break-inside: avoid;
 }
