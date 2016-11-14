@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{{ $useMath := default ( default true ( index .Site.Params "useMath" ) ) ( index .Params "usemath" ) }}
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+	<title>{{ .Site.Title }}. {{ .Title }}</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{{ .Hugo.Generator }}
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}highlight.js/styles/{{ .Site.Params.highlightPrint | default "grayscale" }}.min.css">
+</head>
+<body class="shower list no-math">
+	{{ .Content }}
+	<script src="{{ .Site.BaseURL }}js/common.js"></script>
+	<script src="{{ .Site.BaseURL }}highlight.js/highlight.min.js"></script>
+{{ if $useMath }}
+	<script src="{{ .Site.BaseURL }}mathjax-2.7/MathJax.js?config=AM_HTMLorMML-full"></script>
+{{ end }}
+	<script>hljs.initHighlightingOnLoad();</script>
+{{ if $useMath }}
+	<script>
+MathJax.Hub.Config({
+	asciimath2jax: {
+		inlineMath: [['$','$'],['\\(','\\)']],
+		processClass: "math",
+		ignoreClass: "no-math"
+	}
+});
+	</script>
+{{ end }}
+</body>
+</html>
