@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 {{ $useMath := default ( default true ( index .Site.Params "useMath" ) ) ( index .Params "usemath" ) }}
+{{ $BaseURL := replaceRE "((?:/)([^/]+)$|^/)" "" ( replaceRE "/([^/]+)" "/.." .RelPermalink ) }}
 <html lang="{{ .Site.LanguageCode }}">
 <head>
 	<title>{{ .Site.Title }}. {{ .Title }}</title>
@@ -27,7 +28,7 @@ MathJax.Hub.Config({
 		processClass: "math",
 		ignoreClass: "no-math"
 	},
-	root: "{{ .Site.BaseURL }}mathjax/"
+	root: "{{ $BaseURL }}mathjax/"
 });
 	</script>
 {{ end }}
