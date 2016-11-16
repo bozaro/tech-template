@@ -165,3 +165,15 @@ null::before {
 	margin-top: -2px;
 	page-break-inside: avoid;
 }
+
+body {
+  counter-reset: ticket;
+}
+
+.ticket::before {
+	position: absolute;
+	right: 1em;
+	counter-increment: ticket;
+	content: "#" counter(ticket);
+	font-size: 80%;
+}
