@@ -33,7 +33,8 @@ MathJax.Hub.Config({
 		inlineMath: [['$','$'],['\\(','\\)']],
 		processClass: "math",
 		ignoreClass: "no-math"
-	}
+	},
+	root: "{{ .Site.BaseURL }}mathjax/"
 });
 	</script>
 {{ end }}
