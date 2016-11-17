@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-{{ $useMath := default ( default true ( index .Site.Params "useMath" ) ) ( index .Params "usemath" ) }}
-{{ $BaseURL := replaceRE "((?:/)([^/]+)$|^/)" "" ( replaceRE "/([^/]+)" "/.." .RelPermalink ) }}
 <html lang="{{ .Site.LanguageCode }}">
 <head>
 	<title>{{ .Site.Title }}. {{ .Title }}</title>
@@ -16,21 +14,7 @@
 	{{ .Content }}
 	<script src="{{ .Site.BaseURL }}js/common.js"></script>
 	<script src="{{ .Site.BaseURL }}highlight.js/highlight.min.js"></script>
-{{ if $useMath }}
-	<script src="{{ .Site.BaseURL }}mathjax-2.7/MathJax.js?config=AM_HTMLorMML-full"></script>
-{{ end }}
 	<script>hljs.initHighlightingOnLoad();</script>
-{{ if $useMath }}
-	<script>
-MathJax.Hub.Config({
-	asciimath2jax: {
-		inlineMath: [['$','$'],['\\(','\\)']],
-		processClass: "math",
-		ignoreClass: "no-math"
-	},
-	root: "{{ $BaseURL }}mathjax/"
-});
-	</script>
-{{ end }}
+	{{ partial "mathjax.html" . }}
 </body>
 </html>
