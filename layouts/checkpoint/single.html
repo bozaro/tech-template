@@ -11,6 +11,24 @@
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}highlight.js/styles/{{ .Site.Params.highlightPrint | default "grayscale" }}.min.css">
 </head>
 <body class="shower list no-math">
+	<script>
+function randomTicket() {
+	var tickets = [].slice.call(document.querySelectorAll(".current"));
+	for (var i = 0; i < tickets.length; ++i) {
+        tickets[i].classList.remove("current");
+	}
+
+	var tickets = [].slice.call(document.querySelectorAll(".ticket"));
+	if (tickets.length == 0) {
+		return;
+	}
+	var index = Math.floor(tickets.length * Math.random())
+	var ticket = tickets[index];
+	ticket.classList.add("current");
+	ticket.scrollIntoView();
+}
+	</script>
+	<div class="random" onclick="randomTicket()"></div>
 	{{ .Content }}
 	<script src="{{ .Site.BaseURL }}js/common.js"></script>
 	<script src="{{ .Site.BaseURL }}highlight.js/highlight.min.js"></script>

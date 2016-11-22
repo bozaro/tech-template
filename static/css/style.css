@@ -177,3 +177,17 @@ body {
 	content: "#" counter(ticket);
 	font-size: 80%;
 }
+
+.ticket.current {
+	background-color: #fcc;
+}
+
+.random {
+	position: absolute;
+	background: url(../../park.mail.ru/img/dice.png);
+	top: 0;
+	right: 2.5em;
+	width: 80px;
+	height: 40px;
+	cursor: pointer;
+}
