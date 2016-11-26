@@ -28,8 +28,10 @@ function randomTicket() {
 	ticket.scrollIntoView();
 }
 	</script>
-	<div class="random" onclick="randomTicket()"></div>
+	<div class="tickets">
 	{{ .Content }}
+	</div>
+	<div class="random" onclick="randomTicket()"></div>
 	<script src="{{ .Site.BaseURL }}js/common.js"></script>
 	<script src="{{ .Site.BaseURL }}highlight.js/highlight.min.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>

@@ -155,6 +155,15 @@ null::before {
     text-align: right;
 }
 
+@media screen {
+	.tickets {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		overflow: scroll;
+	}
+}
+
 .ticket {
 	font-family: "PF Isotext Pro";
 	font-size: 12pt;
@@ -179,7 +188,11 @@ body {
 }
 
 .ticket.current {
-	background-color: #fcc;
+	background-color: #cfc;
+}
+
+.ticket.current .hljs {
+	background: none;
 }
 
 .random {
