@@ -155,15 +155,6 @@ null::before {
     text-align: right;
 }
 
-@media screen {
-	.tickets {
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		overflow: scroll;
-	}
-}
-
 .ticket {
 	font-family: "PF Isotext Pro";
 	font-size: 12pt;
@@ -187,20 +178,22 @@ body {
 	font-size: 80%;
 }
 
-.ticket.current {
-	background-color: #cfc;
-}
+@media screen {
+	.ticket.current {
+		background-color: #cfc;
+	}
 
-.ticket.current .hljs {
-	background: none;
-}
+	.ticket.current .hljs {
+		background: none;
+	}
 
-.random {
-	position: absolute;
-	background: url(../../park.mail.ru/img/dice.png);
-	top: 0;
-	right: 2.5em;
-	width: 80px;
-	height: 40px;
-	cursor: pointer;
+	.random {
+		position: absolute;
+		background: url(../../park.mail.ru/img/dice.png);
+		top: 0;
+		right: 2.5em;
+		width: 80px;
+		height: 40px;
+		cursor: pointer;
+	}
 }
