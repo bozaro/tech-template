@@ -189,7 +189,7 @@ body {
 
 	.random {
 		position: absolute;
-		background: url(../../park.mail.ru/img/dice.png);
+		background: url(../park.mail.ru/img/dice.png);
 		top: 0;
 		right: 2.5em;
 		width: 80px;
