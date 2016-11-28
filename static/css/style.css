@@ -197,3 +197,9 @@ body {
 		cursor: pointer;
 	}
 }
+
+.answer {
+	margin-left: 1em;
+	padding-left: 0.5em;
+	border-left: 2px dashed black;
+}
