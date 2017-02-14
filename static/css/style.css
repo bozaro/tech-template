@@ -60,19 +60,18 @@ body.index {
 }
 .index h1 {
 	font-family: PT Sans Narrow,sans-serif;
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight: bold;
 	margin-bottom: 0.5em;
 }
 .index h2 {
 	font-family: PT Sans Narrow,sans-serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: bold;
 	margin-top: 1em;
 	margin-bottom: 0.5em;
 }
 .index .description {
-	font-size: 1.5em;
 	font-weight: normal;
 }
 /* Lists */
