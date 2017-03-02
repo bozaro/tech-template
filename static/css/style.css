@@ -202,3 +202,15 @@ body {
 	padding-left: 0.5em;
 	border-left: 2px dashed black;
 }
+
+.important::before {
+	content: "Важно";
+	font-weight: bold;
+}
+
+.important {
+	margin-left: -2.8em;
+	padding-left: 2.8em;
+	background: url(../img/important.svg);
+	background-repeat: no-repeat;
+}
