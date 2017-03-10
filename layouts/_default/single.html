@@ -6,6 +6,9 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ .Hugo.Generator }}
+	{{ if isset .Site.Params "favicon" }}
+	<link rel="icon" href="{{ .Site.BaseURL }}/{{ .Site.Params.favicon }}" />
+	{{ end }}
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}shower/themes/ribbon/styles/screen-16x10.css">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}highlight.js/styles/{{ .Site.Params.highlightTheme | default "default" }}.min.css">
