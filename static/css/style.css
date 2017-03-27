@@ -7,6 +7,11 @@
 	font-family: "PF Isotext Pro";
 	src: url(../park.mail.ru/fonts/PF.Isotext.Pro.Bold.woff) format("woff");
 }
+.shout {
+    font-size: 100px !important;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 .slide {
     padding-top: 60px;
     line-height: 1.5;
