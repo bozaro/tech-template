@@ -159,22 +159,25 @@ null::before {
     text-align: right;
 }
 
-.ticket {
+section.ticket {
 	font-family: "PF Isotext Pro";
 	font-size: 12pt;
-	padding-top: 1em;
-	padding-bottom: 1em;
 	border-top: 2px dashed gray;
 	border-bottom: 2px dashed gray;
 	margin-top: -2px;
 	page-break-inside: avoid;
 }
 
+div.ticket {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
 body {
   counter-reset: ticket;
 }
 
-.ticket::before {
+div.ticket::before {
 	position: absolute;
 	right: 1em;
 	counter-increment: ticket;
@@ -183,11 +186,11 @@ body {
 }
 
 @media screen {
-	.ticket.current {
+	section.ticket.current {
 		background-color: #cfc;
 	}
 
-	.ticket.current .hljs {
+	section.ticket.current .hljs {
 		background: none;
 	}
 

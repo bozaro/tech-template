@@ -1,0 +1,11 @@
+{{ $page := .Page }}
+{{ range split .Inner "\n+++\n" }}
+<section class="ticket">
+    <div class="ticket">
+        {{ if isset $page.Params "prefix" }}
+        {{ index $page.Params "prefix" | markdownify }}
+        {{ end }}
+        {{ markdownify . }}
+    </div>
+</section>
+{{ end }}
