@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ .Hugo.Generator }}
 	{{ if isset .Site.Params "favicon" }}
-	<link rel="icon" href="{{ .Site.BaseURL }}/{{ .Site.Params.favicon }}" />
+	<link rel="icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}" />
 	{{ end }}
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/print.css" media="print">
@@ -21,11 +21,12 @@ function randomTicket() {
         tickets[i].classList.remove("current");
 	}
 
-	var tickets = [].slice.call(document.querySelectorAll(".ticket"));
+	var tickets = [].slice.call(document.querySelectorAll("section.ticket"));
 	if (tickets.length == 0) {
 		return;
 	}
-	var index = Math.floor(tickets.length * Math.random())
+	var index = Math.floor(tickets.length * Math.random());
+	console.log("Ticket " + index + " of " + tickets.length);
 	var ticket = tickets[index];
 	ticket.classList.add("current");
 	ticket.scrollIntoView();
