@@ -28,7 +28,12 @@
                      style="height: 100%; width: 100%; display: table; text-align: center">
                     <div style="vertical-align: middle; display: table-cell; padding-bottom: 20px; font-weight: bold">
                         {{ .Site.Params.author }}
+                        {{ if isset .Site.Params "agent"}}
                         <div>@gent: {{ .Site.Params.agent }}</div>
+                        {{ end }}
+                        {{ if isset .Site.Params "email"}}
+                        <div>E-mail: {{ .Site.Params.email }}</div>
+                        {{ end }}
                     </div>
                 </div>
             </foreignObject>
