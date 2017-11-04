@@ -14,12 +14,24 @@
 </head>
 <body class="index">
 	<h1>{{ .Site.Title }}</h1>
+	{{ $Section := .Section }}
 	{{ if isset .Params "description" }}<p>{{ .Site.Params.description }}</p>{{ end }}
-	<ul>{{ range .Data.Pages }}
-		<li>
-			<a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
+	<ul>
+		{{ if ne $Section "" }}
+			<li><a href=".."><h2>Назад...<h2></a></li>
+		{{ end }}
+		{{ range .Sections }}
+			<li><a href="{{ .Permalink }}"><h2>{{ .Title }}...</h2></a>
 			{{ if ne .Description "" }}<div class="description">{{ .Description | markdownify }}</div>{{ end }}
-		</li>{{ end }}
+			</li>
+		{{ end }}
+		{{ range .Data.Pages }}
+			{{ if eq .Section $Section }}
+				<li><a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
+				{{ if ne .Description "" }}<div class="description">{{ .Description | markdownify }}</div>{{ end }}
+				</li>
+			{{ end }}
+		{{ end }}
 	</ul>
 	<script src="{{ .Site.BaseURL }}js/common.js"></script>
 </body>
